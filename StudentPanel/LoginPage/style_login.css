@@ -1,0 +1,158 @@
+body {
+    background-color: #131313;
+    color: white;
+
+    /* background-image: url('images/background.png');
+    background-size: cover; */
+
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: large;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login_window {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    background-color: #FF6751;
+    margin-left: 5%;
+    padding: 50px 45px;
+    border-radius: 3%;
+}
+
+.login_window form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.login_window h1 {
+    margin-left: 0;
+    font-size: 48px;
+    color: black;
+}
+
+.container-md {
+    margin-top: 8%;
+
+
+}
+
+.btn {
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+
+}
+
+#button {
+    padding-left: 0%;
+    padding-left: 0%;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+
+}
+
+#button:hover {
+    color: #131313;
+    transform: translate(0px, -1px);
+}
+
+#button_2 {
+    padding-left: 0%;
+    padding-left: 0%;
+    border: rgba(0, 0, 0, 0.5) solid 3px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#button_2:hover {
+    background-color: #131313;
+}
+
+
+#login-area {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#login-area h1 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    padding: 0;
+
+}
+
+#text-box {
+    padding-left: 0;
+
+}
+
+.mb-3 {
+    padding: 0%;
+}
+
+#inputEmail {
+    background-color: #FF6751;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.5) 3px solid;
+    border-radius: 0;
+    outline: none;
+}
+
+#inputPassword {
+    background-color: #FF6751;
+    border-color: black;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.5) 3px solid;
+    border-radius: 0;
+
+}
+
+@media screen and (max-width: 993px) {
+    .login_window {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 875px) {
+    #page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+        justify-content: space-between;
+        gap: 20px;
+
+    }
+
+    .login_window {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+}

@@ -1,0 +1,102 @@
+body {
+    background-color: #131313;
+    color: white;
+
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: large;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text-area {
+    justify-content: end;
+}
+
+button {
+    color: #131313;
+    background-color: white;
+    border-radius: 25px;
+    width: 325px;
+    height: 150px;
+    width: 100%;
+    max-width: 325px;
+
+}
+
+#student-btn,
+#admin-btn {
+    width: 325px;
+    height: 150px;
+    font-weight: 700;
+
+}
+
+#login-buttons {
+    width: 500px;
+    height: 305px;
+    gap: 10px;
+    font-size: 36px;
+
+}
+
+#student-btn {
+    background-color: #FF6751;
+}
+
+#adminn-btn {
+    background-color: #DCDCDC;
+}
+
+@media screen and (max-width: 768px) {
+    #page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+        padding-bottom: 0%;
+    }
+
+    #text-field {
+        height: 300px;
+        margin-bottom: 0px;
+        gap: 0px;
+        padding-bottom: 0%;
+    }
+
+    #text-area {
+        justify-content: left;
+    }
+
+    #login-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    #student-btn,
+    #admin-btn {
+        width: 90vw;
+    }
+
+    /* #login-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } */
+}

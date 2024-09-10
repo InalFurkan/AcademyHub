@@ -1,0 +1,27 @@
+.edit-seciton {
+    display: none;
+}
+
+#addButton {
+    width: auto;
+    background-color: #4432B1;
+
+}
+
+#delButton {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #36373E;
+
+}
+
+.btn-group {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0 20px;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.5);
+
+    border: none;
+    border-radius: 10px;
+}

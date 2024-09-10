@@ -1,0 +1,248 @@
+html,
+body {
+    background-color: #131313;
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+
+.screen-elements {
+    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 100% !important;
+
+    margin-bottom: 0;
+    padding: 0 20px;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+
+/*
+.screen-elements>div {
+    flex: 1;
+    margin: 0 10px;
+} */
+
+
+#sidePanel {
+    top: 30px;
+    width: 10%;
+    height: 90vh;
+    left: 30px;
+    min-width: 300px;
+    background-color: #4432B1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5vh 0;
+    position: sticky;
+    min-height: 500px;
+}
+
+#sidePanel a {
+    text-decoration: none;
+    color: black;
+}
+
+#sidePanel h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.links img {
+    height: 20px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+#sidePanel container {
+    height: 98%;
+}
+
+.sidePanelButton {
+    height: 60px;
+    width: 90%;
+    color: white;
+    background-color: #553EE0;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.sidePanelButton:hover {
+    background-color: #35258f;
+}
+
+
+
+#edit-section {
+    width: 100%;
+    height: 90%;
+    margin: 30px 20px;
+    padding-bottom: 60px;
+
+    /* margin-left: 70px; */
+    /* padding: 20px; */
+    border-radius: 20px;
+
+
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 10px;
+
+    color: white;
+}
+
+#edit-section input,
+#edit-section select {
+    background-color: transparent;
+    border-color: #553EE0;
+    color: white;
+}
+
+#edit-section select option {
+    background-color: #131313;
+}
+
+#content-section {
+
+    width: 100%;
+    height: 90%;
+    margin: 30px 20px 100px;
+
+    /* margin-left: 70px; */
+    /* padding: 20px; */
+    border-radius: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 10px;
+
+
+}
+
+#page-title-bar {
+
+    font-size: 28px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #FF6751;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+
+#button-section {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* Butonları sağa yaslar */
+    margin-top: auto;
+    z-index: 10;
+
+}
+
+
+
+#button-section button {
+    width: auto;
+    padding: 0 15px;
+    height: 50px;
+
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gray-button {
+    background-color: #36373E;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.purple-button {
+    background-color: #553EE0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.orange-button {
+    background-color: #FF6751;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+
+#content-section h2 {
+    color: white;
+    /* Yazı rengini beyaz yapar */
+}
+
+.table {
+
+    /* Arka plan rengini kaldırır */
+    color: white;
+    /* Yazı rengini beyaz yapar */
+    border: 1px solid #553EE0;
+    /* Border rengini mor yapar */
+    border-radius: 10px;
+    /* Border radius değerini 10px yapar */
+}
+
+.table thead th {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+}
+
+.table tbody td {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+}
+
+#newMidtermResult::placeholder,
+#newFinalResult::placeholder {
+    color: white;
+}

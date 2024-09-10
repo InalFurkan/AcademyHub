@@ -1,0 +1,187 @@
+body {
+    background-color: #131313;
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+
+
+}
+
+
+
+#page {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#btn-logout {
+    width: 97px;
+    height: 54px;
+    color: #FF6751;
+    background-color: #131313;
+    border: 1px solid #FF6751;
+    border-radius: 17px;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+}
+
+#btn-logout:hover {
+    background-color: #FF6751;
+    color: #131313;
+}
+
+h3 {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+
+.buttons img {
+    height: 20%;
+    width: 20%;
+    max-height: 50px;
+    max-width: 50px;
+    margin-bottom: 5%;
+
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    height: 225px;
+    width: calc(50% - 5px);
+
+    background-color: #FF6751;
+    color: #131313;
+    border-radius: 10px;
+}
+
+
+
+
+.block-big:hover {
+    background-color: #f75a42;
+}
+
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+#logo-bar {
+
+    z-index: 1000;
+    height: 85px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #4432B1;
+
+    top: 10px;
+    left: 20px;
+    padding: 0px, 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#logout-button {
+    height: 85px;
+    width: 100%;
+    color: white;
+    background-color: #4432B1;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#logout-button:hover {
+    background-color: #35258f;
+}
+
+#page-header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FF6751;
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .button {
+        width: 100%;
+
+    }
+
+    .dynamic {
+
+        width: calc(50% - 5px);
+    }
+
+}

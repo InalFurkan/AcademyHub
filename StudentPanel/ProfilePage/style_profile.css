@@ -1,0 +1,356 @@
+html,
+body {
+    background-color: #131313;
+    font-family: "Alumni Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+
+.screen-elements {
+    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 100% !important;
+
+    margin-bottom: 0;
+    padding: 0 20px;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
+
+/*
+.screen-elements>div {
+    flex: 1;
+    margin: 0 10px;
+} */
+
+
+#sidePanel {
+    top: 30px;
+    width: 10%;
+    height: 90vh;
+    min-width: 300px;
+    background-color: #4432B1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5vh 0;
+    position: sticky;
+    min-height: 500px;
+}
+
+#sidePanel a {
+    text-decoration: none;
+    color: black;
+}
+
+#sidePanel h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.links img {
+    height: 20px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+#sidePanel container {
+    height: 98%;
+}
+
+.sidePanelButton {
+    height: 60px;
+    width: 90%;
+    color: white;
+    background-color: #553EE0;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.sidePanelButton:hover {
+    background-color: #35258f;
+}
+
+#closeBtn {
+    display: none;
+}
+
+#closeBtn img {
+    filter: brightness(0) invert(1);
+    width: 30px;
+    height: 20px;
+}
+
+
+#content-section {
+
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+
+
+    /* margin-left: 70px; */
+    /* padding: 20px; */
+    border-radius: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap: 10px;
+
+
+}
+
+#button-section {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* Butonları sağa yaslar */
+    margin-top: auto;
+    z-index: 10;
+
+}
+
+#button-section button {
+    width: 170px;
+    height: 60px;
+    background-color: #553EE0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+    font-weight: 400;
+    align-items: center;
+}
+
+#cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+#profile-text {
+    display: inline;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 13px;
+    border-radius: 10px;
+    background-color: #FF6751;
+    width: 100%;
+    min-width: 400px;
+    height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+
+}
+
+
+.card {
+    background-color: #36373E;
+    color: white;
+    width: calc(50% - 5px);
+    min-width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    display: flex;
+    flex: 1 1 400px;
+
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#card_profile {
+    background-color: #131313;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#avatar_picture {
+    height: 100%;
+    width: auto;
+    border-radius: 20px;
+}
+
+#personal_info {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+    background-color: #FF6751;
+}
+
+.announcement-title {
+    text-align: left;
+    font-size: bolder;
+    font-size: 22px;
+}
+
+.more-btn {
+    text-align: right;
+}
+
+.date-text {
+    display: block;
+    text-align: right;
+}
+
+.top-nav {
+
+    z-index: 1000;
+    height: 85px;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4432B1;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    padding: 0px, 10px;
+
+
+
+}
+
+.top-nav button {
+    width: 100%;
+    height: 85px;
+    background-color: #4432B1;
+    border: none;
+
+}
+
+#butonTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold-big-text h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.small-title-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-control {
+    font-size: 23px;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 10px;
+    border: none;
+    border-bottom: rgb(255, 255, 255) 2px solid;
+    border-radius: 0;
+    outline: none;
+    background-color: #36373E;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #36373E;
+    color: white;
+
+}
+
+.form-control::placeholder {
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    #sidePanel {
+        display: none;
+        width: 100%;
+    }
+
+    #closeBtn {
+        display: block;
+    }
+
+    .top-nav {
+        display: flex;
+        border-radius: 10px;
+    }
+
+    #button-section button {
+        width: 100%;
+
+
+    }
+
+    #button-section {
+        position: fixed;
+        bottom: 10px;
+        right: 0px;
+        width: 100%;
+        padding: 10px;
+
+        z-index: 10;
+
+    }
+
+    #content-section {
+        margin-top: 110px;
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #sidePanel {
+        display: flex;
+    }
+
+
+    .top-nav {
+        display: none;
+    }
+}
