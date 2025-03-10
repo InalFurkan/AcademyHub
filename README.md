@@ -38,3 +38,16 @@ The goal of **Academy Hub** is to simplify and improve upon traditional student 
 
 ### Authentication:
 - User authentication with login and session management (using PHP sessions).
+
+## Usage
+
+### Admin Panel:
+- Log in with admin credentials to manage students, courses, and announcements.
+  - **Username**: admin
+  - **Password**: admin
+
+### Student Panel:
+- Log in with student credentials to access your course details, grades, schedule, and profile.
+  - **Username**: alan.turing@email.com
+  - **Password**: student
+
